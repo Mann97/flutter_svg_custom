@@ -3,7 +3,7 @@ import 'dart:typed_data';
 import 'dart:ui';
 
 import 'package:meta/meta.dart';
-import 'package:odigo/flutter_svg/src/svg/parsers.dart' show affineMatrix;
+import '../../flutter_svg.dart' show affineMatrix;
 import 'package:path_drawing/path_drawing.dart';
 import 'package:vector_math/vector_math_64.dart';
 

@@ -1,1 +1,15 @@
 export 'svg.dart';
+export 'src/cache.dart';
+export 'src/default_theme.dart';
+export 'src/loaders.dart';
+export 'src/svg/errors.dart';
+export 'src/svg/parser_1.dart';
+export 'src/svg/parser_state.dart';
+export 'src/svg/parsers.dart';
+export 'src/svg/picture_stream.dart';
+export 'src/svg/render_picture.dart';
+export 'src/svg/vector_drawable.dart';
+export 'src/svg/xml.dart';
+export 'src/utilities/_file_io.dart';
+export 'src/utilities/http.dart';
+export 'src/utilities/numbers.dart';

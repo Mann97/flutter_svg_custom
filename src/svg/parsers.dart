@@ -3,11 +3,9 @@ import 'dart:math';
 import 'dart:typed_data';
 import 'dart:ui';
 
-import 'package:odigo/flutter_svg/src/svg/vector_drawable.dart';
 import 'package:vector_math/vector_math_64.dart';
 
-import 'package:odigo/flutter_svg/src/utilities/http.dart';
-import 'package:odigo/flutter_svg/src/utilities/numbers.dart';
+import '../../flutter_svg.dart';
 
 /// Parses a `text-anchor` attribute.
 DrawableTextAnchorPosition? parseTextAnchor(String? raw) {

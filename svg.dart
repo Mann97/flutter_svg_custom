@@ -4,15 +4,15 @@ import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:odigo/flutter_svg/flutter_svg.dart';
-import 'package:odigo/flutter_svg/src/svg/parser_1.dart';
-import 'package:odigo/flutter_svg/src/svg/picture_stream.dart';
 import 'package:vector_graphics/vector_graphics_compat.dart' hide PictureInfo;
 
-import 'package:odigo/flutter_svg/src/cache.dart';
-import 'package:odigo/flutter_svg/src/loaders.dart';
+
+import 'src/cache.dart';
+import 'src/svg/parser_1.dart';
+import 'src/svg/picture_stream.dart';
 import 'src/svg/vector_drawable.dart';
 import 'src/utilities/file.dart';
+import 'svg.dart';
 
 export 'package:vector_graphics/vector_graphics.dart'
     show BytesLoader, vg, VectorGraphicUtilities;

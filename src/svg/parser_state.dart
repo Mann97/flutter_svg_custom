@@ -2,17 +2,12 @@ import 'dart:collection';
 import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
-import 'package:odigo/flutter_svg/src/svg/errors.dart';
-import 'package:odigo/flutter_svg/src/svg/vector_drawable.dart';
-import 'package:odigo/flutter_svg/src/svg/xml.dart';
+import '../../flutter_svg.dart';
 import 'package:path_drawing/path_drawing.dart';
 import 'package:vector_math/vector_math_64.dart';
 import 'package:xml/xml_events.dart' hide parseEvents;
 
 
-import 'package:odigo/flutter_svg/flutter_svg.dart';
-import 'package:odigo/flutter_svg/src/utilities/numbers.dart';
-import 'package:odigo/flutter_svg/src/svg/parsers.dart';
 
 final Set<String> _unhandledElements = <String>{'title', 'desc'};
 

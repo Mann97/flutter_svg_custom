@@ -7,9 +7,7 @@ import 'dart:ui' show Picture, Rect, Size;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
-import 'package:odigo/flutter_svg/src/svg/theme.dart';
-import 'package:odigo/flutter_svg/src/svg/vector_drawable.dart';
-
+import '../../flutter_svg.dart';
 /// The signature of a method that listens for errors on picture stream resolution.
 typedef PictureErrorListener = void Function(
   Object exception,

@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:odigo/flutter_svg/src/svg/theme.dart';
+import 'svg/theme.dart';
 
 /// The cache for decoded SVGs.
 class Cache {

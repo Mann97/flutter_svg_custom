@@ -1,7 +1,7 @@
-import 'package:odigo/flutter_svg/flutter_svg.dart';
-import 'package:odigo/flutter_svg/src/svg/parser_state.dart';
+
 import 'package:xml/xml_events.dart' as xml show parseEvents;
 
+import '../../flutter_svg.dart';
 import 'vector_drawable.dart';
 
 /// Parses SVG data into a [DrawableRoot].
